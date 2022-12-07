@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7a9c497-25f2-4cd4-bf15-22145faa8670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/java/org/oner/aoc2022/Day7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc2022/src/main/resources/inputs/2022/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/org/oner/support/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/org/oner/support/TriConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/org/oner/utils/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/org/oner/utils/Timer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oner/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +157,7 @@
       <workItem from="1666643918984" duration="597000" />
       <workItem from="1666890487655" duration="2000" />
       <workItem from="1670260386846" duration="2657000" />
-      <workItem from="1670272261955" duration="21592000" />
+      <workItem from="1670272261955" duration="21671000" />
     </task>
     <servers />
   </component>
