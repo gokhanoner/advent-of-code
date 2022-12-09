@@ -12,8 +12,7 @@ public final class Input {
 
     private static final String AOC_INPUT_FILE_TEMPLATE = "inputs/%s/%s.txt";
     private static final String PACKAGE_PREFIX = "aoc";
-    private static final String SAMPLE_SUFFIX = "sample";
-    //private static final String CLASS_PREFIX = "Day";
+    private static final String SAMPLE_SUFFIX = ".sample";
 
     private Input() {
         throw new IllegalStateException("Static Class - InputReader");
