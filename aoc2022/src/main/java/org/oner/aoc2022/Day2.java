@@ -8,10 +8,9 @@ import java.util.Map;
 
 public class Day2 {
     private static final Map<String, Integer> POINTS_P1 = Map.of(
-        "A X", 4, "B Y", 5, "C Z", 6,
-        "B X", 1, "C X", 7,
-        "A Y", 8, "C Y", 2,
-        "A Z", 3, "B Z", 9);
+        "A X", 4, "B X", 1, "C X", 7,
+        "A Y", 8, "B Y", 5, "C Y", 2,
+        "A Z", 3, "B Z", 9, "C Z", 6);
 
     private static final Map<String, Integer> POINTS_P2 = Map.of(
         "A X", 3, "B X", 1, "C X", 2,
