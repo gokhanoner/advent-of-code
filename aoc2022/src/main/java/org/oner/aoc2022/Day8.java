@@ -48,7 +48,6 @@ public class Day8 {
                 int down = nOfVisibleTreeDown(j, i, charMatrix);
                 int score = left * right * up * down;
                 maxScenicScore = Math.max(maxScenicScore, score);
-                System.out.println("[%d-%d] - [%2d-%2s-%2d-%2d] - %2d - %2d".formatted(i, j, left, right, up, down, score, maxScenicScore));
             }
         }
         System.out.println(maxScenicScore);
