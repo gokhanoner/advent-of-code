@@ -4,7 +4,6 @@ import org.oner.utils.Input;
 import org.oner.utils.Timer;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -51,25 +50,24 @@ public class Day12 {
     private int find(Point start, Point end, char[][] heightMap) {
         Map<Point, Integer> distances = new HashMap<>();
         distances.put(start, 0);
+        int height = heightMap.length;
+        int width = heightMap[0].length;
 
         Queue<Point> next = new ArrayDeque<>();
         next.add(start);
         while (!next.isEmpty()) {
             Point current = next.poll();
-            List<Point> possiblePaths = Arrays.stream(DIRECTIONS)
-                .map(d -> current.move(d[0], d[1]))
-                .filter(np -> isValidPoint(np, heightMap.length, heightMap[0].length))
-                .filter(np -> hasValidHeight(current, np, heightMap))
-                .toList();
-
-            for (Point neighbour : possiblePaths) {
-                int steps = distances.getOrDefault(current, Integer.MAX_VALUE) + 1;
-                if (neighbour.equals(end)) {
-                    return steps;
-                }
-                if (steps < distances.getOrDefault(neighbour, Integer.MAX_VALUE)) {
-                    distances.put(neighbour, steps);
-                    next.add(neighbour);
+            for (int[] delta : DIRECTIONS) {
+                Point neighbour = current.move(delta[0], delta[1]);
+                if (isValidPoint(neighbour, height, width) && hasValidHeight(current, neighbour, heightMap)) {
+                    int steps = distances.getOrDefault(current, Integer.MAX_VALUE) + 1;
+                    if (neighbour.equals(end)) {
+                        return steps;
+                    }
+                    if (steps < distances.getOrDefault(neighbour, Integer.MAX_VALUE)) {
+                        distances.put(neighbour, steps);
+                        next.add(neighbour);
+                    }
                 }
             }
         }
