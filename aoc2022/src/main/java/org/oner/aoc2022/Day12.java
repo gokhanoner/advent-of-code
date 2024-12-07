@@ -60,7 +60,7 @@ public class Day12 {
             for (int[] delta : DIRECTIONS) {
                 Point neighbour = current.move(delta[0], delta[1]);
                 if (isValidPoint(neighbour, height, width) && hasValidHeight(current, neighbour, heightMap)) {
-                    int steps = distances.getOrDefault(current, Integer.MAX_VALUE) + 1;
+                    int steps = distances.getOrDefault(current, 0) + 1;
                     if (neighbour.equals(end)) {
                         return steps;
                     }
